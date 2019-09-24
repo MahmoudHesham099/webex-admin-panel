@@ -1,7 +1,6 @@
 webex admin panel
 
-![Add to Webex1](https://user-images.githubusercontent.com/52493331/65521342-5bc69d00-dee9-11e9-8ad0-1198a88877cf.JPG)
-![Add to Webex2](https://user-images.githubusercontent.com/52493331/65521347-5ec18d80-dee9-11e9-963e-6e307f3743c6.JPG)
-![Add to Webex3](https://user-images.githubusercontent.com/52493331/65521349-608b5100-dee9-11e9-8da5-6fba998aa321.JPG)
-
+![Add to Webex1](https://user-images.githubusercontent.com/52493331/65521610-c8419c00-dee9-11e9-89fd-d8500fd75f2d.JPG)
+![Add to Webex2](https://user-images.githubusercontent.com/52493331/65521617-c972c900-dee9-11e9-9427-b064fc2c0b57.JPG)
+![Add to Webex3](https://user-images.githubusercontent.com/52493331/65521620-caa3f600-dee9-11e9-8983-22b57594fabc.JPG)
 
