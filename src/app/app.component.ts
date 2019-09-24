@@ -15,12 +15,15 @@ public imgValue="";
 public typeValue="";
 public nameValue="";
 public linkValue="";
+public genreValue="";
+public rateValue="";
 
-content={img:null,type:null,name:null,link:null}
+content={img:null,type:null,name:null,link:null,genre:null,rate:null}
 
 onAdd(){
   
-  if (this.imgValue==""||this.typeValue==""||this.nameValue==""||this.linkValue=="") {
+  if (this.imgValue==""||this.typeValue==""||this.nameValue==""||this.linkValue==""
+      ||this.genreValue==""||this.rateValue=="") {
     
     console.log("Error");
 
@@ -30,7 +33,9 @@ onAdd(){
     this.content.type=this.typeValue;
     this.content.name=this.nameValue;
     this.content.link=this.linkValue;
-  
+    this.content.genre=this.genreValue;
+    this.content.rate=this.rateValue;
+
     this.http.post('https://ng-webex.firebaseio.com/recent.json',this.content)
     .subscribe(data=>{
       console.log(data)
@@ -40,6 +45,8 @@ onAdd(){
     this.typeValue="";
     this.nameValue="";
     this.linkValue="";
+    this.genreValue="";
+    this.rateValue="";
   
   }
   }
